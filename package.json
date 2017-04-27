@@ -1,0 +1,30 @@
+{
+  "name": "manifest-uwp",
+  "version": "0.1.0",
+  "description": "Update your Windows Universal application manifest (version, bundle idenfifier, ...).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloisdeniel/node-manifest-uwp.git"
+  },
+  "keywords": [
+    "uwp",
+    "windows",
+    "manifest",
+    "versionning",
+    "tool"
+  ],
+  "author": "Aloïs Deniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aloisdeniel/node-manifest-uwp/issues"
+  },
+  "homepage": "https://github.com/aloisdeniel/node-manifest-uwp#readme",
+  "dependencies": {
+    "parse-version": "^0.7.0",
+    "xmlobject": "^0.6.5"
+  }
+}
